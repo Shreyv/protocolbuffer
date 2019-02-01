@@ -1,0 +1,7 @@
+option java_outer_classname = "User";
+
+
+message user {
+    required string name = 1;
+    required  int32 id = 2;
+}
